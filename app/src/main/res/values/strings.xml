@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Triangle Puzzle</string>
+    <string name="peg0description">Location for peg or hole 0</string>
+    <string name="peg1description">Location for peg or hole 1</string>
+    <string name="peg2description">Location for peg or hole 2</string>
+    <string name="peg3description">Location for peg or hole 3</string>
+    <string name="peg4description">Location for peg or hole 4</string>
+    <string name="peg5description">Location for peg or hole 5</string>
+    <string name="peg6description">Location for peg or hole 6</string>
+    <string name="peg7description">Location for peg or hole 7</string>
+    <string name="peg8description">Location for peg or hole 8</string>
+    <string name="peg9description">Location for peg or hole 9</string>
+    <string name="peg10description">Location for peg or hole 10</string>
+    <string name="peg11description">Location for peg or hole 11</string>
+    <string name="peg12description">Location for peg or hole 12</string>
+    <string name="peg13description">Location for peg or hole 13</string>
+    <string name="peg14description">Location for peg or hole 14</string>
+</resources>

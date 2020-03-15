@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue300"
+    android:clickable="false"
+    android:paddingStart="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="16dp">
+
+    <ImageView
+        android:id="@+id/ivPeg0"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/peg0description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hole" />
+
+    <ImageView
+        android:id="@+id/ivPeg1"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg1description"
+        app:layout_constraintEnd_toStartOf="@+id/ivPeg0"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg0"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg2"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg2description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg0"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg0"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg3"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg3description"
+        app:layout_constraintEnd_toStartOf="@+id/ivPeg1"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg1"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg4"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg4description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg1"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg1"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg5"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg5description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg2"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg2"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg6"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg6description"
+        app:layout_constraintEnd_toStartOf="@+id/ivPeg3"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg3"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg7"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg7description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg3"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg3"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg8"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg8description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg4"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg4"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg9"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg9description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg5"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg5"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg10"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg10description"
+        app:layout_constraintEnd_toStartOf="@+id/ivPeg6"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg6"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg11"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg11description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg6"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg6"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg12"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg12description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg7"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg7"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg13"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg13description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg8"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg8"
+        app:srcCompat="@drawable/tee" />
+
+    <ImageView
+        android:id="@+id/ivPeg14"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/peg14description"
+        app:layout_constraintStart_toEndOf="@+id/ivPeg9"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg9"
+        app:srcCompat="@drawable/tee" />
+
+    <Button
+        android:id="@+id/buttonSolve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Solve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPrev"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeg11" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonPrev"
+        app:layout_constraintTop_toTopOf="@+id/buttonPrev" />
+
+    <Button
+        android:id="@+id/buttonPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="PREV"
+        app:layout_constraintEnd_toStartOf="@+id/buttonNext"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@+id/buttonSolve"
+        app:layout_constraintTop_toTopOf="@+id/buttonSolve" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
